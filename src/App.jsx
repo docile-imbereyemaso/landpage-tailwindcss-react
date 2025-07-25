@@ -7,6 +7,13 @@ function App() {
 
   return (
    <>
+   <BrowserRouter>
+         <Navbar/>
+      <Routes>
+             <Route path="/"></Route>
+         
+      </Routes>
+   </BrowserRouter>
    </>
   )
 }
