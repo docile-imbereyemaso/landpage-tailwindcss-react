@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+
+@layer {
+  .nav-links {
+    @apply text-gray-500 text-base font-semibold hover:text-gray-800 transition;
+  }
+ 
+}
