@@ -1,3 +1,16 @@
 @import "tailwindcss";
 
-
+@layer{
+    .small-card{
+        @apply px-10 flex items-center py-5
+    }
+    .small-card-h1{
+        @apply font-extrabold text-xl text-black
+    }
+    .small-card-icon{
+        @apply  bg-red-300/90 p-4 text-red-600 rounded-full mr-4
+    }
+    .small-card-p{
+        @apply text-gray-700 font-medium
+    }
+}
