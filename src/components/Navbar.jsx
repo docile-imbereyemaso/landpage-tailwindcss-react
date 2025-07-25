@@ -18,9 +18,9 @@ const Navbar = () => {
                  <i class={` fa-solid ${!menu?"fa-bars":"fa-xmark"} text-2xl bg-pink-500 p-2 rounded-full text-white hover:rounded-2xl hover:text-gray-700/50 transition lg:invisible`} onClick={toggleMenu}></i>
 
             </div>
-            <div className={`flex lg:gap-x-10 lg:flex-row flex-col max-lg:py-10 max-lg:pl-3 max-lg:bg-gray-200/50 max-lg:shadow-lg max-lg:rounded-lg ${!menu?"max-lg:-translate-y-150 max-lg:opacity-0":"max-lg:translate-y-0 max-lg:opacity-100"} max-lg:fixed max-lg:w-full max-lg:left-0 max-lg:top-20 transition duration-300 ease-in-out `}>
+            <div className={`flex lg:gap-x-10 lg:flex-row flex-col max-lg:py-10 max-lg:pl-3 max-lg:bg-gray-300 max-lg:shadow-lg max-lg:rounded-lg ${!menu?"max-lg:-translate-y-150 max-lg:opacity-0":"max-lg:translate-y-0 max-lg:opacity-100"} max-lg:fixed max-lg:w-full max-lg:left-0 max-lg:top-20 transition duration-300 ease-in-out `}>
             <ul className='flex lg:gap-x-10 items-center lg:flex-row flex-col max-lg:self-start max-lg:min-h-50 max-lg:space-y-5 xl:gap-x-25'>
-                <li className="text-gray-500 font-bold hover:text-gray-700 transition duration-300 max-lg:self-start">
+                <li className="text-gray-500 font-bold hover:text-gray-700 transition duration-300 max-lg:self-start" onClick={toggleMenu}> 
                     <Link to="/">About</Link>
                 </li>
                  <li className="text-gray-500 font-bold hover:text-gray-700 transition duration-300 max-lg:self-start">
