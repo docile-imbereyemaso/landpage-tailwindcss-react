@@ -5,7 +5,7 @@ const Cards = () => {
   return (
     <section className='grid grid-cols-3 max-lg:grid-cols-1 lg:space-x-20 mt-20 max-lg:space-y-5'>
       <div className='flex flex-col  bg-white border-2 border-gray-500/50 px-10 py-10 rounded-xl'>
-          <div className='p-10 max-lg:p-0'>
+          <div className='p-10 max-lg:p-0 max-lg:mx-auto'>
             <img src={image} alt="" className='w-full max-lg:size-100 object-contain' />
           </div>
              <h1 className='mx-14 font-semibold text-gray-900 max-lg:text-center max-lg:text-2xl'>Free Plan</h1>
@@ -33,7 +33,7 @@ const Cards = () => {
               </div>
       </div>
           <div className='flex flex-col  bg-white border-2 border-gray-500/50 px-10 py-10 rounded-xl'>
-          <div className='p-10 max-lg:p-0'>
+          <div className='p-10 max-lg:p-0 max-lg:mx-auto'>
             <img src={image} alt="" className='w-full max-lg:size-100 object-contain' />
           </div>
              <h1 className='mx-14 font-semibold text-gray-900 max-lg:text-center max-lg:text-xl'>Standard Plan</h1>
@@ -61,7 +61,7 @@ const Cards = () => {
               </div>
       </div>
         <div className='flex flex-col  bg-white border-2 border-red-800 px-10 py-10 rounded-xl'>
-          <div className='p-10 max-lg:p-0'>
+          <div className='p-10 max-lg:p-0 max-lg:mx-auto'>
             <img src={image} alt="" className='w-full max-lg:size-100 object-contain' />
           </div>
              <h1 className='mx-14 font-semibold text-gray-900 max-lg:text-center max-lg:text-xl'>Standard Plan</h1>

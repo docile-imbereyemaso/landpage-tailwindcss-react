@@ -2,6 +2,7 @@ import { BrowserRouter, Route,Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Top from "./components/Top"
 import Cards from "./components/Cards"
+import MapContainer from "./components/MapContainer"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
    </BrowserRouter>
    <Top/>
    <Cards/>
+   <MapContainer/>
    </>
   )
 }
