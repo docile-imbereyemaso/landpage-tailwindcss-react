@@ -4,6 +4,7 @@ import Top from "./components/Top"
 import Cards from "./components/Cards"
 import MapContainer from "./components/MapContainer"
 import Testimons from "./components/Testimons"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
    <MapContainer/>
    <Testimons/>
       </main>
+
+    <Footer/>
    </>
   )
 }

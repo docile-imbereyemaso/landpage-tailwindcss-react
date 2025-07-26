@@ -89,7 +89,7 @@ const Testimons = () => {
           </div>
     </div>  
 
-    <div className='bg-white shadow-xl mx-20 mt-10 mb-10 p-10 flex justify-between items-center max-lg:flex-col max-lg:space-y-5'>
+    <div className='bg-white shadow-2xl mx-20 mt-10 mb-10 p-10 flex justify-between items-center max-lg:flex-col max-lg:space-y-5 max-lg:w-full max-lg:mx-0 translate-y-30 transform rounded-xl '>
         <div className=' max-w-75'>
           <h1 className='text-3xl font-semibold text-gray-900 mb-4'>Subscribe Now for Get Special Features!</h1>
           <p className='text-gray-500'>Let's subscribe with us and find the fun.</p>
