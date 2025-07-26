@@ -6,6 +6,8 @@ import icons from '../assets/icons.png';
 
 const Top = () => {
   return (
+    <>
+     
      <main className='mt-20 mr-20 max-lg:mr-0'>
        <div className='flex lg:flex-row max-lg:flex-col max-lg:gap-y-5 '>
                 <div className='space-y-5 lg:space-y-10'>
@@ -82,6 +84,7 @@ const Top = () => {
 
      
      </main>
+       </>
   )
 }
 

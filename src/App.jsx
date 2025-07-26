@@ -11,6 +11,9 @@ function App() {
 
   return (
    <>
+   
+
+   <main className="lg:px-20 pt-10 lg:py-10 px-10 bg-white">
    <BrowserRouter>
          <Navbar/>
       <Routes>
@@ -20,8 +23,12 @@ function App() {
    </BrowserRouter>
    <Top/>
    <Cards/>
+   
+
+
    <MapContainer/>
    <Testimons/>
+      </main>
    </>
   )
 }
