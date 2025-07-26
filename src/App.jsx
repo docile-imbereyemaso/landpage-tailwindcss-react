@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Top from "./components/Top"
 import Cards from "./components/Cards"
 import MapContainer from "./components/MapContainer"
+import Testimons from "./components/Testimons"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
    <Top/>
    <Cards/>
    <MapContainer/>
+   <Testimons/>
    </>
   )
 }
